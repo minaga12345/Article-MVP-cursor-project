@@ -1,0 +1,33 @@
+{
+  "name": "article-draft-mvp",
+  "version": "1.0.0",
+  "description": "24-Hour Low-Code Challenge - Article Drafting MVP",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "dev:full": "concurrently \"npm run dev\" \"cd backend && npm run dev\"",
+    "install:all": "npm install && cd backend && npm install",
+    "start:backend": "cd backend && npm run dev",
+    "test": "node tests/quote-matching.test.js",
+    "test:watch": "nodemon --exec \"node tests/quote-matching.test.js\"",
+    "demo": "npm run dev:full",
+    "deploy:build": "npm run build && npm run start:backend"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "lucide-react": "^0.263.1",
+    "react-markdown": "^8.0.7",
+    "react-syntax-highlighter": "^15.5.0",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "@vitejs/plugin-react": "^4.0.3",
+    "vite": "^4.4.5",
+    "concurrently": "^8.2.2"
+  }
+}

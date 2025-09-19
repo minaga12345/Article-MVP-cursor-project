@@ -1,0 +1,26 @@
+[
+  {
+    "id": "source1",
+    "type": "web",
+    "title": "DevFlow Company Website - About Page",
+    "url": "https://devflow.ai/about",
+    "content": "DevFlow is revolutionizing software development with AI-powered tools that help developers write better code faster. Founded in 2022 by Sarah Chen and Alex Rodriguez, both former senior engineers at major tech companies, DevFlow addresses the critical problem that developers spend 60-70% of their time on repetitive tasks. Our platform uses advanced language models and domain-specific AI to automate debugging, code review, and documentation while maintaining the highest standards of code quality and security. With over 10,000 active developers and 200+ enterprise customers, DevFlow is transforming how software is built. Our freemium model makes AI-assisted development accessible to individual developers while providing advanced features for teams and enterprises. We believe in transparency, quality, and putting developers in control of their AI tools.",
+    "addedAt": "2024-01-15T10:30:00Z"
+  },
+  {
+    "id": "source2", 
+    "type": "pdf",
+    "title": "DevFlow Product Brochure - Technical Specifications",
+    "filename": "devflow-product-brochure.pdf",
+    "content": "DevFlow Technical Specifications and Features. Domain-Specific AI Models: Our platform includes specialized AI models for web development (React, Vue, Angular), mobile development (iOS, Android, React Native), data science (Python, R, Jupyter), and enterprise software (Java, C#, .NET). Each model is trained on millions of lines of high-quality, peer-reviewed code specific to that domain. Security and Quality Assurance: Built-in security scanners detect common vulnerabilities including SQL injection, XSS, CSRF, and insecure authentication patterns. Code quality metrics include complexity analysis, performance optimization suggestions, and adherence to industry best practices. Integration Capabilities: DevFlow integrates seamlessly with popular development tools including VS Code, IntelliJ IDEA, GitHub, GitLab, Bitbucket, and major CI/CD pipelines. API access allows custom integrations with existing development workflows. Performance Metrics: Our platform processes code suggestions in under 200ms, supports real-time collaboration for teams up to 100 developers, and maintains 99.9% uptime with enterprise-grade security and compliance.",
+    "addedAt": "2024-01-15T10:35:00Z"
+  },
+  {
+    "id": "source3",
+    "type": "youtube",
+    "title": "DevFlow Demo Video - AI in Action",
+    "url": "https://youtube.com/watch?v=devflow-demo",
+    "content": "Welcome to DevFlow - AI-Powered Development Made Simple. In this demo, we'll show you how DevFlow transforms your coding experience. Watch as our AI assistant helps you build a React component from scratch. The AI understands your project structure, suggests optimal patterns, and catches potential issues before they become problems. Notice how it provides detailed explanations for each suggestion, helping you learn and improve your coding skills. Our security scanner automatically detects vulnerabilities and suggests fixes. The code review feature analyzes your changes and provides feedback on performance, readability, and best practices. With DevFlow, you're not just writing code faster - you're writing better code. Try DevFlow today and experience the future of software development. Sign up for free at devflow.ai and join thousands of developers who are already building the future with AI.",
+    "addedAt": "2024-01-15T10:40:00Z"
+  }
+]
